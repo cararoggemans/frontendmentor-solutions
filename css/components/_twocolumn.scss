@@ -1,0 +1,59 @@
+.section {
+    &__bottom {
+        padding: 0;
+        .row {
+            @media (min-width: 992px) {
+                display: flex;
+                flex-direction: row;
+            }
+            .col {
+                &__left {
+                    padding: 32px;
+                    background: $cyan;
+                    h2 {
+                        margin-top: 0;
+                        margin-bottom: 32px;
+                        color: white;
+                        font-weight: 400;
+                    }
+                    .light {
+                        color: $lightgray;
+                        span {
+                            color: white;
+                            font-size: 2.5rem;
+                            margin-right: 12px;
+                        }
+                    }
+                    .btn {
+                        margin-top: 18px;
+                    }
+                    @media (min-width: 992px) {
+                        width: 50%;
+                    }
+                }
+                &__right {
+                    padding: 32px;
+                    background: $cyanshade;
+                    h2 {
+                        margin-top: 0;
+                        color: white;
+                        font-weight: 400;
+                    }
+                    ul {
+                        padding-left: 0;
+                        li {
+                            color:$lightgray;
+                            list-style-type: none;
+                        }
+                    } 
+                    @media (min-width: 992px) {
+                        width: 50%;
+                    }  
+                }
+                p {
+                    color: white;
+                }
+            }
+        }
+    }
+}

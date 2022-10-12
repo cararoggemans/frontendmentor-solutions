@@ -1,0 +1,33 @@
+body {
+    font-family: $karla;
+    font-size: 1rem;
+    color: $grayblue;
+    line-height: 1.6rem;
+    margin: 0;
+    position: relative;
+    background: $lightgray;
+    min-height: 100vh;
+    @media (min-width: 992px) {
+        display: flex;
+  justify-content: center;
+  align-items: center;
+
+    }
+}
+
+.container {
+    width: 100%;
+    @media (min-width: 992px) {
+        display: grid;
+        margin: 0 auto;
+        max-width: 800px;    
+    }
+}
+
+h2 {
+    color: $cyan;
+}
+h3 {
+    font-weight: 400;
+    color: $yellow;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+.section__bottom {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .section__bottom .row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.section__bottom .row .col__left {
+  padding: 32px;
+  background: hsl(179deg, 62%, 43%);
+}
+.section__bottom .row .col__left h2 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: white;
+  font-weight: 400;
+}
+.section__bottom .row .col__left .light {
+  color: hsl(204deg, 43%, 93%);
+}
+.section__bottom .row .col__left .light span {
+  color: white;
+  font-size: 2.5rem;
+  margin-right: 12px;
+}
+.section__bottom .row .col__left .btn {
+  margin-top: 18px;
+}
+@media (min-width: 992px) {
+  .section__bottom .row .col__left {
+    width: 50%;
+  }
+}
+.section__bottom .row .col__right {
+  padding: 32px;
+  background: #4abebd;
+}
+.section__bottom .row .col__right h2 {
+  margin-top: 0;
+  color: white;
+  font-weight: 400;
+}
+.section__bottom .row .col__right ul {
+  padding-left: 0;
+}
+.section__bottom .row .col__right ul li {
+  color: hsl(204deg, 43%, 93%);
+  list-style-type: none;
+}
+@media (min-width: 992px) {
+  .section__bottom .row .col__right {
+    width: 50%;
+  }
+}
+.section__bottom .row .col p {
+  color: white;
+}
+
+.section__top {
+  padding: 32px;
+  background: white;
+}
+
+.btn {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: white;
+  background: hsl(71deg, 73%, 54%);
+  width: 100%;
+  padding: 16px;
+  border: 0;
+  box-shadow: 3px 3px 15px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.6rem;
+  margin: 0;
+  position: relative;
+  background: hsl(204deg, 43%, 93%);
+  min-height: 100vh;
+}
+@media (min-width: 992px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .container {
+    display: grid;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
+
+h2 {
+  color: hsl(179deg, 62%, 43%);
+}
+
+h3 {
+  font-weight: 400;
+  color: hsl(71deg, 73%, 54%);
+}/*# sourceMappingURL=main.css.map */
