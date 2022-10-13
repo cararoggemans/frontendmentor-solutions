@@ -1,65 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
-.section__bottom {
+.section--bottom {
   padding: 0;
 }
 @media (min-width: 992px) {
-  .section__bottom .row {
+  .section--bottom .row {
     display: flex;
     flex-direction: row;
   }
 }
-.section__bottom .row .col__left {
+.section--bottom .row .col--left {
   padding: 32px;
   background: hsl(179deg, 62%, 43%);
 }
-.section__bottom .row .col__left h2 {
+.section--bottom .row .col--left h2 {
   margin-top: 0;
   margin-bottom: 32px;
   color: white;
   font-weight: 400;
 }
-.section__bottom .row .col__left .light {
+.section--bottom .row .col--left .light {
   color: hsl(204deg, 43%, 93%);
 }
-.section__bottom .row .col__left .light span {
+.section--bottom .row .col--left .light span {
   color: white;
   font-size: 2.5rem;
   margin-right: 12px;
 }
-.section__bottom .row .col__left .btn {
+.section--bottom .row .col--left .btn {
   margin-top: 18px;
 }
 @media (min-width: 992px) {
-  .section__bottom .row .col__left {
+  .section--bottom .row .col--left {
     width: 50%;
   }
 }
-.section__bottom .row .col__right {
+.section--bottom .row .col--right {
   padding: 32px;
   background: #4abebd;
 }
-.section__bottom .row .col__right h2 {
+.section--bottom .row .col--right h2 {
   margin-top: 0;
   color: white;
   font-weight: 400;
 }
-.section__bottom .row .col__right ul {
+.section--bottom .row .col--right ul {
   padding-left: 0;
 }
-.section__bottom .row .col__right ul li {
+.section--bottom .row .col--right ul li {
   color: hsl(204deg, 43%, 93%);
   list-style-type: none;
 }
 @media (min-width: 992px) {
-  .section__bottom .row .col__right {
+  .section--bottom .row .col--right {
     width: 50%;
   }
 }
-.section__bottom .row .col p {
+.section--bottom .row .col p {
   color: white;
 }
 
-.section__top {
+.section--top {
   padding: 32px;
   background: white;
 }
