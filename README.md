@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cararoggemans.github.io/price-grid-solution/)
+- Solution URL: [My solution for price grid component challenge](https://cararoggemans.github.io/price-grid-solution/)
 - Live Site URL: [Single price grid component challenge #live site](https://single-price-grid-component-eosin-ten.vercel.app/)
 
 ## My process
